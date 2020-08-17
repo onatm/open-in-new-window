@@ -10,16 +10,24 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:open-in-new-window.helloWorld"
+		"onCommand:open-in-new-window.open"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "open-in-new-window.helloWorld",
-				"title": "Hello World"
+				"command": "open-in-new-window.open",
+				"title": "Open in New Window"
 			}
-		]
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "open-in-new-window.open",
+					"group": "openInNewWindowGroup"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
