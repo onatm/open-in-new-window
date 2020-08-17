@@ -13,6 +13,7 @@
 	},
 	"homepage": "https://github.com/onatm/open-in-new-window",
 	"author": "onatm",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.48.0"
 	},
