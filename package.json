@@ -3,11 +3,25 @@
 	"displayName": "Open in New Window",
 	"description": "VS Code explorer context menu extension to open any path in a new window",
 	"version": "0.0.1",
+	"publisher": "onatm",
+	"bugs": {
+		"url": "https://github.com/onatm/open-in-new-window/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/onatm/open-in-new-window"
+	},
+	"homepage": "https://github.com/onatm/open-in-new-window",
+	"author": "onatm",
 	"engines": {
 		"vscode": "^1.48.0"
 	},
 	"categories": [
 		"Other"
+	],
+	"keywords": [
+		"open",
+		"window"
 	],
 	"activationEvents": [
 		"onCommand:open-in-new-window.open"
