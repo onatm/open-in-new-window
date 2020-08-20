@@ -1,5 +1,8 @@
 # open-in-new-window
 
+[![version](https://img.shields.io/vscode-marketplace/v/onatm.open-in-new-window.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=onatm.open-in-new-window)
+[![installs](https://img.shields.io/vscode-marketplace/d/onatm.open-in-new-window.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=onatm.open-in-new-window)
+
 VS Code explorer context menu extension to open any path in a new window.
 
 ## Release Notes
