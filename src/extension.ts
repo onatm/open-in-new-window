@@ -8,7 +8,13 @@ export function activate(context: vscode.ExtensionContext) {
 			vscode.window.showWarningMessage('The intended usage is from the explorer context menu.');
 			return;
 		}
-		vscode.window.showInformationMessage(`Opening ${uri.path} in new window!`);
+
+		const showNotification = vscode.workspace.getConfiguration("open-in-new-window").get("showNotification");
+
+		if (showNotification) {
+			vscode.window.showInformationMessage(`Opening ${uri.path} in new window!`);
+		}
+
 		vscode.commands.executeCommand('vscode.openFolder', uri, true);
 	});
 

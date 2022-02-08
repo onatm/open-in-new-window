@@ -43,6 +43,16 @@
 					"group": "openInNewWindowGroup"
 				}
 			]
+		},
+		"configuration": {
+			"title": "Open in New Window configuration",
+			"properties": {
+				"open-in-new-window.showNotification": {
+					"type": "boolean",
+					"description": "Show notification",
+					"default": false
+				}
+			}
 		}
 	},
 	"scripts": {
