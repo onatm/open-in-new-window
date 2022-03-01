@@ -2,7 +2,7 @@
 	"name": "open-in-new-window",
 	"displayName": "Open in New Window",
 	"description": "VS Code explorer context menu extension to open any path in a new window",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "onatm",
 	"bugs": {
 		"url": "https://github.com/onatm/open-in-new-window/issues"

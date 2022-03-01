@@ -10,6 +10,10 @@ VS Code explorer context menu extension to open any path in a new window.
 
 ## Release Notes
 
+### 1.1.0
+
+Added show/hide notification configuration (#4) by @notiv-nt.
+
 ### 1.0.0
 
 Added extension logo (Made by [Smashicons](https://smashicons.com/) from [www.flaticon.com](https://www.flaticon.com/))
